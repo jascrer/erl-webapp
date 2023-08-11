@@ -1,0 +1,37 @@
+{"1.2.0",
+[{<<"backoff">>,{pkg,<<"backoff">>,<<"1.1.6">>},1},
+ {<<"cowboy">>,
+  {git,"https://github.com/ninenines/cowboy.git",
+       {ref,"22adc4de517bf54661795f6e18b6b2e62aec4140"}},
+  0},
+ {<<"cowlib">>,
+  {git,"https://github.com/ninenines/cowlib",
+       {ref,"cc04201c1d0e1d5603cd1cde037ab729b192634c"}},
+  1},
+ {<<"jsx">>,{pkg,<<"jsx">>,<<"3.1.0">>},0},
+ {<<"opentelemetry_api">>,{pkg,<<"opentelemetry_api">>,<<"1.1.0">>},1},
+ {<<"pg_types">>,{pkg,<<"pg_types">>,<<"0.4.0">>},1},
+ {<<"pgo">>,
+  {git,"https://github.com/tsloughter/pgo.git",
+       {ref,"d1989c44f41ccf1b4e670ccafe46d43f71cb6dfc"}},
+  0},
+ {<<"ranch">>,
+  {git,"https://github.com/ninenines/ranch",
+       {ref,"a692f44567034dacf5efcaa24a24183788594eb7"}},
+  1},
+ {<<"tempo">>,
+  {git,"https://github.com/selectel/tempo",
+       {ref,"e77e6a5dd1c6814764285a2de6ed2056e60269d9"}},
+  0}]}.
+[
+{pkg_hash,[
+ {<<"backoff">>, <<"83B72ED2108BA1EE8F7D1C22E0B4A00CFE3593A67DBC792799E8CCE9F42F796B">>},
+ {<<"jsx">>, <<"D12516BAA0BB23A59BB35DCCAF02A1BD08243FCBB9EFE24F2D9D056CCFF71268">>},
+ {<<"opentelemetry_api">>, <<"156366BFBF249F54DAF2626E087E29AD91201EAB670993FD9AE1BD278D03A096">>},
+ {<<"pg_types">>, <<"3CE365C92903C5BB59C0D56382D842C8C610C1B6F165E20C4B652C96FA7E9C14">>}]},
+{pkg_hash_ext,[
+ {<<"backoff">>, <<"CF0CFFF8995FB20562F822E5CC47D8CCF664C5ECDC26A684CBE85C225F9D7C39">>},
+ {<<"jsx">>, <<"0C5CC8FDC11B53CC25CF65AC6705AD39E54ECC56D1C22E4ADB8F5A53FB9427F3">>},
+ {<<"opentelemetry_api">>, <<"E0D0B49E21E5785DA675C97104C385283CAE84FCC0D8522932A5DCF55489EAD1">>},
+ {<<"pg_types">>, <<"B02EFA785CAECECF9702C681C80A9CA12A39F9161A846CE17B01FB20AEEED7EB">>}]}
+].
