@@ -15,7 +15,8 @@ ping(0,_,_) ->
 ping(N,Pid,StreamRef) ->
     Message = list_to_binary(io_lib:format("Ping ~s", [integer_to_list(N)])),
     io:format("Sent ~p~n", [Message]),
-    gun:ws_send(Pid, StreamRef, [{text, Message}]),
+    %%I added the StreamRef in the gun:ws_send as it is necessary in newer versions of gun
+    gun:ws_send(Pid, StreamRef, [{text, Message}]), 
     {ws, Frame} = gun:await(Pid, StreamRef),
     io:format("Received ~p~n", [Frame]),
     ping(N - 1, Pid, StreamRef).
