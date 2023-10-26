@@ -10,3 +10,9 @@ Creating a Web app following this guide: https://github.com/roblaing/erlang-weba
 * Unit 6: Ajax
 * Unit 7: Interlanguage (Prolog) communication via websocket (`gun` library)
 * Unit 8: Tying everything together in a blog
+
+
+# Rebar3 commands
+* rebar3 compile
+* rebar3 release
+* rebar3 shell: for shell execution
